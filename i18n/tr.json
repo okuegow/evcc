@@ -39,9 +39,16 @@
     "legendTopAutostart": "Otomatik olarak başla",
     "legendTopName": "Batarya destekli araç doldurma",
     "legendTopSubline": "ev bataryası {soc} seviyesinin üzerindeyse.",
+    "legendTopSublineAbove": "{soc} üzerindeyken",
+    "legendTopSublineDisabled": "{soc}'dur.",
+    "legendTopSublineDisabledState": "devre dışı",
     "modalTitle": "Ev Bataryası",
     "noBattery": "Batarya yapılandırılmamış.",
     "usageTab": "Batarya kullanımı"
+  },
+  "colors": {
+    "auto": "Otomatik",
+    "hex": "Onaltılık renk"
   },
   "config": {
     "aux": {
@@ -113,6 +120,7 @@
       "title": "Para birimi"
     },
     "deviceValue": {
+      "activeClients": "Etkin müşteriler",
       "amount": "Miktar",
       "broker": "Aracı",
       "bucket": "Kova",
@@ -126,6 +134,7 @@
       "chargedEnergy": "Doldu",
       "co2": "Şebeke CO₂",
       "configured": "Yapılandırıldı",
+      "connected": "Bağlı",
       "connections": "Bağlantılar",
       "controllable": "Kontrol edilebilir",
       "currency": "Para Birimi",
@@ -144,6 +153,7 @@
       "hemsActiveLimit": "Etkin sınır",
       "hemsType": "İletişim",
       "identifier": "RFID tanımlayıcısı",
+      "loginBlocked": "Giriş sınırına ulaşıldı",
       "max": "azami",
       "messengers": "Hizmetler",
       "no": "hayır",
@@ -225,6 +235,7 @@
       "authPerformHint": "Yeni bir sekmede açılacak. Devam etmek için buraya geri dön.",
       "authPrepare": "Bağlantıyı hazırla",
       "cancel": "İptal",
+      "change": "Değiştir",
       "clear": "Temizle",
       "close": "Kapat",
       "confirmSave": "Kaydedilmemiş değişiklikler var. Şimdi kaydedilsin mi?",
@@ -233,6 +244,7 @@
       "customHelp": "evcc'nin eklenti sistemini kullanarak kullanıcı tanımlı bir cihaz oluştur.",
       "customOption": "Kullanıcı tanımlı cihaz",
       "delete": "“Sil”",
+      "dismiss": "Kapat",
       "docsLink": "Belgelere bak.",
       "dragHandle": "Sürükleme kolu",
       "dragItem": "Sürüklenebilir: {title}",
@@ -339,7 +351,7 @@
       "defaultsHintLink": "Ayarları düzenle",
       "delete": "“Sil”",
       "electricalSubtitle": "Emin değilsen elektrikçine sor.",
-      "electricalTitle": "“Elektrikli”",
+      "electricalTitle": "Elektrik",
       "energyMeterHelp": "Doldurma cihazında bütünleşik bir sayaç yoksa ek sayaç.",
       "energyMeterLabel": "“Enerji sayacı”",
       "estimateLabel": "“API güncellemeleri arasında doldurma seviyesini hesapla”",
@@ -425,6 +437,9 @@
       "vehicles": "Araçlarım",
       "welcomeBannerText": "Önce bir **doldurma cihazı**, **ısıtıcı**, **elektrik sayacı**, **güneş enerjisi**, **batarya** veya **ek sayaç** oluştur. Sadece denemek istiyorsan, bir **demo cihazı** seç.",
       "welcomeBannerTitle": "Haydi sistemini yapılandıralım!"
+    },
+    "mcp": {
+      "description": "Bir Model Context Protocol sunucusu sağlar, böylece Claude gibi yapay zeka asistanlarının sisteminin durumunu okuyup doldurma işlemini kontrol etmesine olanak tanır."
     },
     "messaging": {
       "addMessenger": "Hizmet ekle",
